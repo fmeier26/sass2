@@ -1,0 +1,17 @@
+
+
+$mapEventos: (titulo: red, titulo2: blue, titulo3: violet);
+@each $titulos, $color in $mapEventos {
+    .#{$titulos} {
+        color: $color;
+    }
+}
+
+
+$estilo: (color: aquamarine, tamañofuente: 25px);
+
+.sass {
+    background-color: map-get($estilo, color );
+    font-size: map-get($estilo, tamañofuente);
+}
+

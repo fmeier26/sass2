@@ -1,0 +1,10 @@
+@mixin pepelepu {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+}
+
+.ejemploMixin {
+    @include pepelepu;
+}
